@@ -13,7 +13,7 @@ export function Todos({ status }: todoStatus) {
     <div className="carTodos">
       <span className="titulos">{status}</span>
       {auxTodoList.map((tD: Todo) => (
-        <Link className="tarea" to={`/TodoAppTypescript/edit/${tD.id}`} key={tD.id}>
+        <Link className="tarea" to={`/edit/${tD.id}`} key={tD.id}>
           <TodoCard title={tD.title} />
         </Link>
       ))}
