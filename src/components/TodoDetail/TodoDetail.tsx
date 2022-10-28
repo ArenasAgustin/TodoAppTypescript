@@ -59,13 +59,13 @@ export function TodoDetail() {
       </div>
 
       <div className="btns">
-        <Link to="/TodoAppTypescript/">
+        <Link to="/">
           <button onClick={() => done(todoDetail?.id)} className="detalleBtn">
             DONE
           </button>
         </Link>
 
-        <Link to="/TodoAppTypescript/">
+        <Link to="/">
           <button
             onClick={() => progress(todoDetail?.id)}
             className="detalleBtn"
@@ -74,7 +74,7 @@ export function TodoDetail() {
           </button>
         </Link>
 
-        <Link to="/TodoAppTypescript/">
+        <Link to="/">
           <button onClick={() => remove(todoDetail?.id)} className="detalleBtn">
             DELETE
           </button>

@@ -5,11 +5,11 @@ import "./Nav.css";
 export default function Nav() {
   return (
     <div className="navbar">
-      <Link className="link" to="/TodoAppTypescript/">
+      <Link className="link" to="/">
         <span>TODOS</span>
       </Link>
 
-      <Link className="link" to="/TodoAppTypescript/add">
+      <Link className="link" to="/add">
         <span>Add Todo</span>
       </Link>
     </div>

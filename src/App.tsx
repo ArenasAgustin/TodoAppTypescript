@@ -12,11 +12,11 @@ export function App() {
     <div className="App">
       <Nav />
 
-      <Route exact path="/TodoAppTypescript/" render={() => <Home />} />
+      <Route exact path="/" render={() => <Home />} />
 
-      <Route path="/TodoAppTypescript/add" render={() => <AddTodo />} />
+      <Route path="/add" render={() => <AddTodo />} />
 
-      <Route path="/TodoAppTypescript/edit/:id" render={() => <TodoDetail />} />
+      <Route path="/edit/:id" render={() => <TodoDetail />} />
     </div>
   );
 }
